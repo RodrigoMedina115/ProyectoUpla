@@ -17,4 +17,4 @@ del retardo de la recarga en una hora establecida.
 para recargar la tarjeta BIP, además de otorgarle el camino
 más corto.
 ¿Qué visualizaciones se puede entrar al usuario?
- Geográfica
+Geográfica
