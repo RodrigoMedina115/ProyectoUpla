@@ -1,6 +1,5 @@
 # ProyectoUpla
-Es una aplicación MOVIL que permite, a travéz del un mapa virtual, mostrar el lugar más cercano, desde donde se encuentra el individuo,
-proporcionándole el camino más corto para recargar su tarjeta BIP
+Es una palicacion quer  permite, a travez de una api de Google Map, las localizaciones de los centros de recarga de la tarjeta BIP. Ademas mostrara el centro mas cercano para recargar su tarjeta BIP. Facilitando al usuario una rapida llegada a estos centros de recarga.
 
 ##FUCIONALIDADES:
 ¿Qué pregunta se puede responder?
