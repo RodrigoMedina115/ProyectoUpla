@@ -9,9 +9,9 @@ with open('json.json') as data_file:
  data = json.load(data_file)
 connection = sqlite3.connect('bip.db')
 consulta= connection.cursor()
-consulta.execute("CREATE TABLE IF NOT EXISTS LOCALES(CODIGO INT(30),ENTIDAD VARCHAR(50),NOMBFANTASIA VARCHAR(50),DIRECCION VARCHAR(50),COMUNA VARCHAR(30),HORARIO VARCHAR(50),NORTE NUMERIC,LONGITUD NUMERIC,LATITUD NUMERIC)")
+consulta.execute("CREATE TABLE IF NOT EXISTS LOCALES(CODIGO INT(30),PRIMARY KEY(CODIGO),ENTIDAD VARCHAR(50),NOMBFANTASIA VARCHAR(50),DIRECCION VARCHAR(50),COMUNA VARCHAR(30),HORARIO VARCHAR(50),NORTE NUMERIC,LONGITUD NUMERIC,LATITUD NUMERIC)")
 
-for x in range(0,20):    
+for x in range(0,1886):    
  entidad = data["result"]["records"][x]["ENTIDAD"]
  direccion = data["result"]["records"][x]["DIRECCION"]
  horario = data["result"]["records"][x]["HORARIO REFERENCIAL"]
