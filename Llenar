@@ -24,6 +24,6 @@ for x in range(0,1886):
  NonFantasia = data["result"]["records"][x]["NOMBRE FANTASIA"]
  locales=(codigo,entidad,NonFantasia,direccion,comuna,horario,norte,longitud,latitud)
  consulta.execute("INSERT INTO LOCALES(CODIGO,ENTIDAD,NOMBFANTASIA,DIRECCION,COMUNA,HORARIO,NORTE,LONGITUD,LATITUD) VALUES(?,?,?,?,?,?,?,?,?)", locales)
+ connection.commit()
 print "Guardado Con Exito"
-connection.commit()
 connection.close()
